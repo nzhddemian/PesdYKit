@@ -1,0 +1,11 @@
+framework module PesdYKit {
+  umbrella header "PesdYKit.h"
+
+  export *
+  module * { export * }
+}
+
+module PesdYKit.Swift {
+  header "PesdYKit-Swift.h"
+  requires objc
+}

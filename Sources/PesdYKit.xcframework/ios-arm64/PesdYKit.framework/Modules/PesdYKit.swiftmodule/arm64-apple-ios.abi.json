@@ -1,0 +1,3667 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PixelBufferDelegate",
+        "printedName": "PixelBufferDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "updatePixelBuffer",
+            "printedName": "updatePixelBuffer(pixels:times:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit19PixelBufferDelegateP06updatecD06pixels5timesySo11CVBufferRefa_So6CMTimeatF",
+            "mangledName": "$s8PesdYKit19PixelBufferDelegateP06updatecD06pixels5timesySo11CVBufferRefa_So6CMTimeatF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PesdYKit.PixelBufferDelegate>",
+            "sugared_genericSig": "<Self where Self : PesdYKit.PixelBufferDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8PesdYKit19PixelBufferDelegateP",
+        "mangledName": "$s8PesdYKit19PixelBufferDelegateP",
+        "moduleName": "PesdYKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AssetTime",
+        "printedName": "AssetTime",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetTime",
+                "printedName": "PesdYKit.AssetTime",
+                "usr": "s:8PesdYKit9AssetTimeV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PesdYKit9AssetTimeVACycfc",
+            "mangledName": "$s8PesdYKit9AssetTimeVACycfc",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "finalClipRange",
+            "printedName": "finalClipRange",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMTimeRange",
+                "printedName": "CoreMedia.CMTimeRange",
+                "usr": "c:@SA@CMTimeRange"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avp",
+            "mangledName": "$s8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTimeRange",
+                    "printedName": "CoreMedia.CMTimeRange",
+                    "usr": "c:@SA@CMTimeRange"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avg",
+                "mangledName": "$s8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTimeRange",
+                    "printedName": "CoreMedia.CMTimeRange",
+                    "usr": "c:@SA@CMTimeRange"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avs",
+                "mangledName": "$s8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avM",
+                "mangledName": "$s8PesdYKit9AssetTimeV14finalClipRangeSo06CMTimeG0avM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clipDuration",
+            "printedName": "clipDuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavp",
+            "mangledName": "$s8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavg",
+                "mangledName": "$s8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavs",
+                "mangledName": "$s8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavM",
+                "mangledName": "$s8PesdYKit9AssetTimeV12clipDurationSo6CMTimeavM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentTime",
+            "printedName": "currentTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit9AssetTimeV07currentD0So6CMTimeavp",
+            "mangledName": "$s8PesdYKit9AssetTimeV07currentD0So6CMTimeavp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV07currentD0So6CMTimeavg",
+                "mangledName": "$s8PesdYKit9AssetTimeV07currentD0So6CMTimeavg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV07currentD0So6CMTimeavs",
+                "mangledName": "$s8PesdYKit9AssetTimeV07currentD0So6CMTimeavs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit9AssetTimeV07currentD0So6CMTimeavM",
+                "mangledName": "$s8PesdYKit9AssetTimeV07currentD0So6CMTimeavM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PesdYKit9AssetTimeV",
+        "mangledName": "$s8PesdYKit9AssetTimeV",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VAssetModel",
+        "printedName": "VAssetModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VAssetModel",
+                "printedName": "PesdYKit.VAssetModel",
+                "usr": "s:8PesdYKit11VAssetModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PesdYKit11VAssetModelCACycfc",
+            "mangledName": "$s8PesdYKit11VAssetModelCACycfc",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "land",
+            "printedName": "land",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC4landSbvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC4landSbvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC4landSbvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC4landSbvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC4landSbvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC4landSbvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC4landSbvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC4landSbvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rotation",
+            "printedName": "rotation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC8rotationSfvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC8rotationSfvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC8rotationSfvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC8rotationSfvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC8rotationSfvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC8rotationSfvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC8rotationSfvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC8rotationSfvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "rotationGif",
+            "printedName": "rotationGif",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC11rotationGifSfvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC11rotationGifSfvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC11rotationGifSfvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC11rotationGifSfvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC11rotationGifSfvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC11rotationGifSfvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC11rotationGifSfvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC11rotationGifSfvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "aspectRatio",
+            "printedName": "aspectRatio",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC11aspectRatio14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC11aspectRatio12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC11aspectRatio14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC11aspectRatio12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC11aspectRatio14CoreFoundation7CGFloatVvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC11aspectRatio12CoreGraphics7CGFloatVvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC11aspectRatio14CoreFoundation7CGFloatVvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC11aspectRatio12CoreGraphics7CGFloatVvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "drawableSize",
+            "printedName": "drawableSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC12drawableSizeSo6CGSizeVvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "duration",
+            "printedName": "duration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC8durationSo6CMTimeaSgvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "landscape",
+            "printedName": "landscape",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11VAssetModelC9landscapeSbvpZ",
+            "mangledName": "$s8PesdYKit11VAssetModelC9landscapeSbvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC9landscapeSbvgZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC9landscapeSbvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC9landscapeSbvsZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC9landscapeSbvsZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11VAssetModelC9landscapeSbvMZ",
+                "mangledName": "$s8PesdYKit11VAssetModelC9landscapeSbvMZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8PesdYKit11VAssetModelC",
+        "mangledName": "$s8PesdYKit11VAssetModelC",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VAssetRaderDelegate",
+        "printedName": "VAssetRaderDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "seekTo",
+            "printedName": "seekTo(time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit19VAssetRaderDelegateP6seekTo4timeySo6CMTimea_tF",
+            "mangledName": "$s8PesdYKit19VAssetRaderDelegateP6seekTo4timeySo6CMTimea_tF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PesdYKit.VAssetRaderDelegate>",
+            "sugared_genericSig": "<Self where Self : PesdYKit.VAssetRaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readBuffer",
+            "printedName": "readBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit19VAssetRaderDelegateP10readBufferSo11CVBufferRefaSgyF",
+            "mangledName": "$s8PesdYKit19VAssetRaderDelegateP10readBufferSo11CVBufferRefaSgyF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PesdYKit.VAssetRaderDelegate>",
+            "sugared_genericSig": "<Self where Self : PesdYKit.VAssetRaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playAsset",
+            "printedName": "playAsset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit19VAssetRaderDelegateP9playAssetyyF",
+            "mangledName": "$s8PesdYKit19VAssetRaderDelegateP9playAssetyyF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PesdYKit.VAssetRaderDelegate>",
+            "sugared_genericSig": "<Self where Self : PesdYKit.VAssetRaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseAsset",
+            "printedName": "pauseAsset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit19VAssetRaderDelegateP10pauseAssetyyF",
+            "mangledName": "$s8PesdYKit19VAssetRaderDelegateP10pauseAssetyyF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PesdYKit.VAssetRaderDelegate>",
+            "sugared_genericSig": "<Self where Self : PesdYKit.VAssetRaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTimeRange",
+            "printedName": "setTimeRange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTimeRange",
+                "printedName": "CoreMedia.CMTimeRange",
+                "usr": "c:@SA@CMTimeRange"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit19VAssetRaderDelegateP12setTimeRangeyySo06CMTimeH0aF",
+            "mangledName": "$s8PesdYKit19VAssetRaderDelegateP12setTimeRangeyySo06CMTimeH0aF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : PesdYKit.VAssetRaderDelegate>",
+            "sugared_genericSig": "<Self where Self : PesdYKit.VAssetRaderDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8PesdYKit19VAssetRaderDelegateP",
+        "mangledName": "$s8PesdYKit19VAssetRaderDelegateP",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VAssetReader",
+        "printedName": "VAssetReader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "PesdYKit.PixelBufferDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvp",
+            "mangledName": "$s8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ReferenceOwnership"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PesdYKit.PixelBufferDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PixelBufferDelegate",
+                        "printedName": "PesdYKit.PixelBufferDelegate",
+                        "usr": "s:8PesdYKit19PixelBufferDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvg",
+                "mangledName": "$s8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PesdYKit.PixelBufferDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PixelBufferDelegate",
+                        "printedName": "PesdYKit.PixelBufferDelegate",
+                        "usr": "s:8PesdYKit19PixelBufferDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvs",
+                "mangledName": "$s8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvM",
+                "mangledName": "$s8PesdYKit12VAssetReaderC8delegateAA19PixelBufferDelegate_pSgvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "asset",
+            "printedName": "asset",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AVFoundation.AVAsset?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAsset",
+                    "printedName": "AVFoundation.AVAsset",
+                    "usr": "c:objc(cs)AVAsset"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvp",
+            "mangledName": "$s8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVAsset?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAsset",
+                        "printedName": "AVFoundation.AVAsset",
+                        "usr": "c:objc(cs)AVAsset"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvg",
+                "mangledName": "$s8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVAsset?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVAsset",
+                        "printedName": "AVFoundation.AVAsset",
+                        "usr": "c:objc(cs)AVAsset"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvs",
+                "mangledName": "$s8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvM",
+                "mangledName": "$s8PesdYKit12VAssetReaderC5assetSo7AVAssetCSgvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "player",
+            "printedName": "player",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVPlayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayer",
+                    "printedName": "AVFoundation.AVPlayer",
+                    "usr": "c:objc(cs)AVPlayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvp",
+            "mangledName": "$s8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayer",
+                        "printedName": "AVFoundation.AVPlayer",
+                        "usr": "c:objc(cs)AVPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvg",
+                "mangledName": "$s8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVPlayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayer",
+                        "printedName": "AVFoundation.AVPlayer",
+                        "usr": "c:objc(cs)AVPlayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvs",
+                "mangledName": "$s8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvM",
+                "mangledName": "$s8PesdYKit12VAssetReaderC6playerSo8AVPlayerCSgvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "playerItem",
+            "printedName": "playerItem",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "AVFoundation.AVPlayerItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVPlayerItem",
+                    "printedName": "AVFoundation.AVPlayerItem",
+                    "usr": "c:objc(cs)AVPlayerItem"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvp",
+            "mangledName": "$s8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVPlayerItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayerItem",
+                        "printedName": "AVFoundation.AVPlayerItem",
+                        "usr": "c:objc(cs)AVPlayerItem"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvg",
+                "mangledName": "$s8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "AVFoundation.AVPlayerItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVPlayerItem",
+                        "printedName": "AVFoundation.AVPlayerItem",
+                        "usr": "c:objc(cs)AVPlayerItem"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvs",
+                "mangledName": "$s8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvM",
+                "mangledName": "$s8PesdYKit12VAssetReaderC10playerItemSo08AVPlayerF0CSgvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetTime",
+            "printedName": "assetTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AssetTime",
+                "printedName": "PesdYKit.AssetTime",
+                "usr": "s:8PesdYKit9AssetTimeV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0Vvp",
+            "mangledName": "$s8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0Vvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetTime",
+                    "printedName": "PesdYKit.AssetTime",
+                    "usr": "s:8PesdYKit9AssetTimeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0Vvg",
+                "mangledName": "$s8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0Vvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AssetTime",
+                    "printedName": "PesdYKit.AssetTime",
+                    "usr": "s:8PesdYKit9AssetTimeV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0Vvs",
+                "mangledName": "$s8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0Vvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0VvM",
+                "mangledName": "$s8PesdYKit12VAssetReaderC9assetTimeAA05AssetF0VvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pixelBuffer",
+            "printedName": "pixelBuffer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvp",
+            "mangledName": "$s8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvg",
+                "mangledName": "$s8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVBuffer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVBuffer",
+                        "printedName": "CoreVideo.CVBuffer",
+                        "usr": "c:@T@CVBufferRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvs",
+                "mangledName": "$s8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvM",
+                "mangledName": "$s8PesdYKit12VAssetReaderC11pixelBufferSo11CVBufferRefaSgvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VAssetReader",
+                "printedName": "PesdYKit.VAssetReader",
+                "usr": "s:8PesdYKit12VAssetReaderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PesdYKit12VAssetReaderCyAC10Foundation3URLVcfc",
+            "mangledName": "$s8PesdYKit12VAssetReaderCyAC10Foundation3URLVcfc",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "turnOnSound",
+            "printedName": "turnOnSound(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC11turnOnSoundyySbF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC11turnOnSoundyySbF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "seekTuStart",
+            "printedName": "seekTuStart()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC11seekTuStartyyF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC11seekTuStartyyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "seekTo",
+            "printedName": "seekTo(time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC6seekTo4timeySo6CMTimea_tF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC6seekTo4timeySo6CMTimea_tF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loop",
+            "printedName": "loop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC4loopyyF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC4loopyyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playAsset",
+            "printedName": "playAsset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC9playAssetyyF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC9playAssetyyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pauseAsset",
+            "printedName": "pauseAsset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC10pauseAssetyyF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC10pauseAssetyyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTimeRange",
+            "printedName": "setTimeRange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTimeRange",
+                "printedName": "CoreMedia.CMTimeRange",
+                "usr": "c:@SA@CMTimeRange"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC12setTimeRangeyySo06CMTimeG0aF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC12setTimeRangeyySo06CMTimeG0aF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readBuffer",
+            "printedName": "readBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12VAssetReaderC10readBufferSo11CVBufferRefaSgyF",
+            "mangledName": "$s8PesdYKit12VAssetReaderC10readBufferSo11CVBufferRefaSgyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8PesdYKit12VAssetReaderC",
+        "mangledName": "$s8PesdYKit12VAssetReaderC",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "VAssetRaderDelegate",
+            "printedName": "VAssetRaderDelegate",
+            "usr": "s:8PesdYKit19VAssetRaderDelegateP",
+            "mangledName": "$s8PesdYKit19VAssetRaderDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UniformTypeIdentifiers",
+        "printedName": "UniformTypeIdentifiers",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "Import",
+        "name": "MetalPerformanceShaders",
+        "printedName": "MetalPerformanceShaders",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CVProccessor",
+        "printedName": "CVProccessor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "tracker",
+            "printedName": "tracker(inputImg:drwSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD2<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12CVProccessorC7tracker8inputImg7drwSizeSays5SIMD2VySfGGSo7UIImageC_So6CGSizeVtFZ",
+            "mangledName": "$s8PesdYKit12CVProccessorC7tracker8inputImg7drwSizeSays5SIMD2VySfGGSo7UIImageC_So6CGSizeVtFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "segments",
+            "printedName": "segments(inputImg:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit12CVProccessorC8segments8inputImgSo7UIImageCAG_tFZ",
+            "mangledName": "$s8PesdYKit12CVProccessorC8segments8inputImgSo7UIImageCAG_tFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8PesdYKit12CVProccessorC",
+        "mangledName": "$s8PesdYKit12CVProccessorC",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "MetalKit",
+        "printedName": "MetalKit",
+        "declKind": "Import",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SceneKit",
+        "printedName": "SceneKit",
+        "declKind": "Import",
+        "moduleName": "PesdYKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MetalDevice",
+        "printedName": "MetalDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalDevice",
+                "printedName": "PesdYKit.MetalDevice",
+                "usr": "s:8PesdYKit11MetalDeviceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11MetalDeviceC6sharedACvpZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC6sharedACvpZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MetalDevice",
+                    "printedName": "PesdYKit.MetalDevice",
+                    "usr": "s:8PesdYKit11MetalDeviceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC6sharedACvgZ",
+                "mangledName": "$s8PesdYKit11MetalDeviceC6sharedACvgZ",
+                "moduleName": "PesdYKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "device",
+            "printedName": "device",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLDevice",
+                "printedName": "Metal.MTLDevice",
+                "usr": "c:objc(pl)MTLDevice"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11MetalDeviceC6deviceSo9MTLDevice_pvp",
+            "mangledName": "$s8PesdYKit11MetalDeviceC6deviceSo9MTLDevice_pvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLDevice",
+                    "printedName": "Metal.MTLDevice",
+                    "usr": "c:objc(pl)MTLDevice"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC6deviceSo9MTLDevice_pvg",
+                "mangledName": "$s8PesdYKit11MetalDeviceC6deviceSo9MTLDevice_pvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "commandQueue",
+            "printedName": "commandQueue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLCommandQueue",
+                "printedName": "Metal.MTLCommandQueue",
+                "usr": "c:objc(pl)MTLCommandQueue"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11MetalDeviceC12commandQueueSo010MTLCommandF0_pvp",
+            "mangledName": "$s8PesdYKit11MetalDeviceC12commandQueueSo010MTLCommandF0_pvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLCommandQueue",
+                    "printedName": "Metal.MTLCommandQueue",
+                    "usr": "c:objc(pl)MTLCommandQueue"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC12commandQueueSo010MTLCommandF0_pvg",
+                "mangledName": "$s8PesdYKit11MetalDeviceC12commandQueueSo010MTLCommandF0_pvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "videoTextureCache",
+            "printedName": "videoTextureCache",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVMetalTextureCache?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVMetalTextureCache",
+                    "printedName": "CoreVideo.CVMetalTextureCache",
+                    "usr": "c:@T@CVMetalTextureCacheRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvp",
+            "mangledName": "$s8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVMetalTextureCache?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVMetalTextureCache",
+                        "printedName": "CoreVideo.CVMetalTextureCache",
+                        "usr": "c:@T@CVMetalTextureCacheRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvg",
+                "mangledName": "$s8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreVideo.CVMetalTextureCache?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CVMetalTextureCache",
+                        "printedName": "CoreVideo.CVMetalTextureCache",
+                        "usr": "c:@T@CVMetalTextureCacheRef"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvs",
+                "mangledName": "$s8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvs",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvM",
+                "mangledName": "$s8PesdYKit11MetalDeviceC17videoTextureCacheSo07CVMetalfG3RefaSgvM",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetalDevice",
+                "printedName": "PesdYKit.MetalDevice",
+                "usr": "s:8PesdYKit11MetalDeviceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PesdYKit11MetalDeviceCACycfc",
+            "mangledName": "$s8PesdYKit11MetalDeviceCACycfc",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "newCommandBuffer",
+            "printedName": "newCommandBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLCommandBuffer",
+                "printedName": "Metal.MTLCommandBuffer",
+                "usr": "c:objc(pl)MTLCommandBuffer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC16newCommandBufferSo010MTLCommandG0_pyF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC16newCommandBufferSo010MTLCommandG0_pyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderPipe",
+            "printedName": "renderPipe(vertexFunctionName:fragmentFunctionName:pixelFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLRenderPipelineState",
+                "printedName": "Metal.MTLRenderPipelineState",
+                "usr": "c:objc(pl)MTLRenderPipelineState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLPixelFormat",
+                "printedName": "Metal.MTLPixelFormat",
+                "usr": "c:@E@MTLPixelFormat"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC10renderPipe18vertexFunctionName08fragmenthI011pixelFormatSo22MTLRenderPipelineState_pSS_SSSo08MTLPixelL0VtKFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10renderPipe18vertexFunctionName08fragmenthI011pixelFormatSo22MTLRenderPipelineState_pSS_SSSo08MTLPixelL0VtKFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "texture",
+            "printedName": "texture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC7textureySo10MTLTexture_pSgSo6CGSizeVFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC7textureySo10MTLTexture_pSgSo6CGSizeVFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "textureA",
+            "printedName": "textureA(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC8textureAySo10MTLTexture_pSgSi_SitFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC8textureAySo10MTLTexture_pSgSi_SitFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "filerTexture",
+            "printedName": "filerTexture(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC12filerTextureySo10MTLTexture_pSgSi_SitFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC12filerTextureySo10MTLTexture_pSgSi_SitFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "vertexBuffer",
+            "printedName": "vertexBuffer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLBuffer",
+                    "printedName": "Metal.MTLBuffer",
+                    "usr": "c:objc(pl)MTLBuffer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC12vertexBufferSo9MTLBuffer_pSgyFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC12vertexBufferSo9MTLBuffer_pSgyFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceBuffer",
+            "printedName": "faceBuffer(faceFloats:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLBuffer",
+                    "printedName": "Metal.MTLBuffer",
+                    "usr": "c:objc(pl)MTLBuffer"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD2<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC10faceBuffer0E6FloatsSo9MTLBuffer_pSgSays5SIMD2VySfGG_tFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10faceBuffer0E6FloatsSo9MTLBuffer_pSgSays5SIMD2VySfGG_tFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "index_data",
+            "printedName": "index_data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt16]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PesdYKit11MetalDeviceC10index_dataSays6UInt16VGvp",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10index_dataSays6UInt16VGvp",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt16]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PesdYKit11MetalDeviceC10index_dataSays6UInt16VGvg",
+                "mangledName": "$s8PesdYKit11MetalDeviceC10index_dataSays6UInt16VGvg",
+                "moduleName": "PesdYKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "renderPipe",
+            "printedName": "renderPipe(vertexFunctionName:fragmentFunctionName:pixelFormat:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLRenderPipelineState",
+                "printedName": "Metal.MTLRenderPipelineState",
+                "usr": "c:objc(pl)MTLRenderPipelineState"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLPixelFormat",
+                "printedName": "Metal.MTLPixelFormat",
+                "usr": "c:@E@MTLPixelFormat"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC10renderPipe18vertexFunctionName08fragmenthI011pixelFormatSo22MTLRenderPipelineState_pSS_SSSo08MTLPixelL0VtKF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10renderPipe18vertexFunctionName08fragmenthI011pixelFormatSo22MTLRenderPipelineState_pSS_SSSo08MTLPixelL0VtKF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "faceIndexBuffer",
+            "printedName": "faceIndexBuffer(faceFloats:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLBuffer",
+                    "printedName": "Metal.MTLBuffer",
+                    "usr": "c:objc(pl)MTLBuffer"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.SIMD2<Swift.Float>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<Swift.Float>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC15faceIndexBuffer0E6FloatsSo9MTLBuffer_pSgSays5SIMD2VySfGG_tFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC15faceIndexBuffer0E6FloatsSo9MTLBuffer_pSgSays5SIMD2VySfGG_tFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cVTexture",
+            "printedName": "cVTexture(buffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC9cVTexture6bufferSo10MTLTexture_pSgSo11CVBufferRefaSg_tF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC9cVTexture6bufferSo10MTLTexture_pSgSo11CVBufferRefaSg_tF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ciTexture",
+            "printedName": "ciTexture(_:size:commandBuff:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreImage.CIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CIImage",
+                    "printedName": "CoreImage.CIImage",
+                    "usr": "c:objc(cs)CIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLCommandBuffer",
+                "printedName": "Metal.MTLCommandBuffer",
+                "usr": "c:objc(pl)MTLCommandBuffer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC9ciTexture_4size11commandBuffSo10MTLTexture_pSgSo7CIImageCSg_So6CGSizeVSo16MTLCommandBuffer_ptF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC9ciTexture_4size11commandBuffSo10MTLTexture_pSgSo7CIImageCSg_So6CGSizeVSo16MTLCommandBuffer_ptF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ciTextures",
+            "printedName": "ciTextures(_:size:commandBuff:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreImage.CIImage]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CIImage",
+                    "printedName": "CoreImage.CIImage",
+                    "usr": "c:objc(cs)CIImage"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLCommandBuffer",
+                "printedName": "Metal.MTLCommandBuffer",
+                "usr": "c:objc(pl)MTLCommandBuffer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC10ciTextures_4size11commandBuffSo10MTLTexture_pSgSaySo7CIImageCG_So6CGSizeVSo16MTLCommandBuffer_ptF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10ciTextures_4size11commandBuffSo10MTLTexture_pSgSaySo7CIImageCG_So6CGSizeVSo16MTLCommandBuffer_ptF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scnTexture",
+            "printedName": "scnTexture(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "Metal.MTLTexture",
+                "usr": "c:objc(pl)MTLTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC10scnTextureySo10MTLTexture_pSo6CGSizeVFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10scnTextureySo10MTLTexture_pSo6CGSizeVFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sceneToTexture",
+            "printedName": "sceneToTexture(in:_:texture:time:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNView",
+                "printedName": "SceneKit.SCNView",
+                "usr": "c:objc(cs)SCNView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLCommandBuffer",
+                "printedName": "Metal.MTLCommandBuffer",
+                "usr": "c:objc(pl)MTLCommandBuffer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "Metal.MTLTexture",
+                "paramValueOwnership": "InOut",
+                "usr": "c:objc(pl)MTLTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC14sceneToTexture2in_7texture4timeySo7SCNViewC_So16MTLCommandBuffer_pSo10MTLTexture_pzSdtFZ",
+            "mangledName": "$s8PesdYKit11MetalDeviceC14sceneToTexture2in_7texture4timeySo7SCNViewC_So16MTLCommandBuffer_pSo10MTLTexture_pzSdtFZ",
+            "moduleName": "PesdYKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "computeState",
+            "printedName": "computeState(compStr:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Metal.MTLComputePipelineState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLComputePipelineState",
+                    "printedName": "Metal.MTLComputePipelineState",
+                    "usr": "c:objc(pl)MTLComputePipelineState"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC12computeState7compStrSo018MTLComputePipelineF0_pSgSS_tF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC12computeState7compStrSo018MTLComputePipelineF0_pSgSS_tF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dstTexture",
+            "printedName": "dstTexture(buffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Metal.MTLTexture?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC10dstTexture6bufferSo10MTLTexture_pSgSo11CVBufferRefaSg_tF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC10dstTexture6bufferSo10MTLTexture_pSgSo11CVBufferRefaSg_tF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8PesdYKit11MetalDeviceC",
+        "mangledName": "$s8PesdYKit11MetalDeviceC",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AVAsset",
+        "printedName": "AVAsset",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "videoSize",
+            "printedName": "videoSize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7AVAssetC8PesdYKitE9videoSizeSo6CGSizeVyF",
+            "mangledName": "$sSo7AVAssetC8PesdYKitE9videoSizeSo6CGSizeVyF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)AVAsset",
+        "moduleName": "AVFoundation",
+        "isOpen": true,
+        "intro_iOS": "4.0",
+        "objc_name": "AVAsset",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SIMD2",
+        "printedName": "SIMD2",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "convertCoord",
+            "printedName": "convertCoord()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SIMD2",
+                "printedName": "Swift.SIMD2<Swift.Float>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "usr": "s:s5SIMD2V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s5SIMD2V8PesdYKitSfRszrlE12convertCoordABySfGyF",
+            "mangledName": "$ss5SIMD2V8PesdYKitSfRszrlE12convertCoordABySfGyF",
+            "moduleName": "PesdYKit",
+            "genericSig": "<τ_0_0 where τ_0_0 == Swift.Float>",
+            "sugared_genericSig": "<Scalar where Scalar == Swift.Float>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s5SIMD2V",
+        "mangledName": "$ss5SIMD2V",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.SIMDScalar>",
+        "sugared_genericSig": "<Scalar where Scalar : Swift.SIMDScalar>",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SIMD",
+            "printedName": "SIMD",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "MaskStorage",
+                "printedName": "MaskStorage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2",
+                    "printedName": "Swift.SIMD2<τ_0_0.SIMDMaskScalar>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.SIMDMaskScalar"
+                      }
+                    ],
+                    "usr": "s:s5SIMD2V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s4SIMDP",
+            "mangledName": "$ss4SIMDP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDStorage",
+            "printedName": "SIMDStorage",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Scalar",
+                "printedName": "Scalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s11SIMDStorageP",
+            "mangledName": "$ss11SIMDStorageP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 553,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 598,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 688,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 748,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 4,
+      "value": "1920"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/VAssetReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 849,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 14,
+      "value": "\"vertexShader\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 4920,
+      "length": 34,
+      "value": "[0, 1, 2, 2, 3, 0]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5035,
+      "length": 14,
+      "value": "\"vertexShader\""
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PesdYKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+import Metal
+import MetalKit
+import MetalPerformanceShaders
+@_exported import PesdYKit
+import SceneKit
+import Swift
+import UIKit
+import UniformTypeIdentifiers
+import _Concurrency
+import _StringProcessing
+public protocol PixelBufferDelegate : AnyObject {
+  func updatePixelBuffer(pixels: CoreVideo.CVPixelBuffer, times: CoreMedia.CMTime)
+}
+public struct AssetTime {
+  public init()
+  public var finalClipRange: CoreMedia.CMTimeRange
+  public var clipDuration: CoreMedia.CMTime
+  public var currentTime: CoreMedia.CMTime
+}
+public class VAssetModel {
+  public init()
+  public static var land: Swift.Bool
+  public static var rotation: Swift.Float
+  public static var rotationGif: Swift.Float
+  public static var aspectRatio: CoreFoundation.CGFloat
+  public static var drawableSize: CoreFoundation.CGSize
+  public static var duration: CoreMedia.CMTime!
+  public static var landscape: Swift.Bool
+  @objc deinit
+}
+public protocol VAssetRaderDelegate {
+  func seekTo(time: CoreMedia.CMTime)
+  func readBuffer() -> CoreVideo.CVPixelBuffer?
+  func playAsset()
+  func pauseAsset()
+  func setTimeRange(_ timeRange: CoreMedia.CMTimeRange)
+}
+public class VAssetReader : PesdYKit.VAssetRaderDelegate {
+  weak public var delegate: PesdYKit.PixelBufferDelegate?
+  public var asset: AVFoundation.AVAsset!
+  public var player: AVFoundation.AVPlayer?
+  public var playerItem: AVFoundation.AVPlayerItem!
+  public var assetTime: PesdYKit.AssetTime
+  public var pixelBuffer: CoreVideo.CVPixelBuffer?
+  public init(_ url: Foundation.URL)
+  public func turnOnSound(_ isOn: Swift.Bool)
+  public func seekTuStart()
+  public func seekTo(time: CoreMedia.CMTime)
+  public func loop()
+  public func playAsset()
+  public func pauseAsset()
+  public func setTimeRange(_ timeRange: CoreMedia.CMTimeRange)
+  public func readBuffer() -> CoreVideo.CVPixelBuffer?
+  @objc deinit
+}
+extension AVFoundation.AVAsset {
+  public func videoSize() -> CoreFoundation.CGSize
+}
+@_hasMissingDesignatedInitializers public class CVProccessor {
+  public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize) -> [simd.float2]
+  public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
+  @objc deinit
+}
+public class MetalDevice {
+  public static let shared: PesdYKit.MetalDevice
+  final public let device: Metal.MTLDevice
+  final public let commandQueue: Metal.MTLCommandQueue
+  public var videoTextureCache: CoreVideo.CVMetalTextureCache?
+  @objc deinit
+  public init()
+  final public func newCommandBuffer() -> Metal.MTLCommandBuffer
+  final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> Metal.MTLRenderPipelineState
+  final public class func texture(_ size: CoreFoundation.CGSize) -> Metal.MTLTexture?
+  final public class func textureA(_ width: Swift.Int, _ height: Swift.Int) -> Metal.MTLTexture?
+  final public class func filerTexture(_ width: Swift.Int, _ height: Swift.Int) -> Metal.MTLTexture?
+  final public class func vertexBuffer() -> Metal.MTLBuffer?
+  final public class func faceBuffer(faceFloats: [simd.float2]) -> Metal.MTLBuffer?
+  final public let index_data: [Swift.UInt16]
+  final public func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> Metal.MTLRenderPipelineState
+  final public class func faceIndexBuffer(faceFloats: [simd.float2]) -> Metal.MTLBuffer?
+  final public func cVTexture(buffer: CoreVideo.CVPixelBuffer!) -> Metal.MTLTexture?
+  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize, commandBuff: Metal.MTLCommandBuffer) -> Metal.MTLTexture?
+  final public func ciTextures(_ imgs: [CoreImage.CIImage], size: CoreFoundation.CGSize, commandBuff: Metal.MTLCommandBuffer) -> Metal.MTLTexture?
+  final public class func scnTexture(_ size: CoreFoundation.CGSize) -> Metal.MTLTexture
+  final public class func sceneToTexture(in scnView: SceneKit.SCNView, _ commandBuffer: Metal.MTLCommandBuffer, texture: inout Metal.MTLTexture, time: CoreFoundation.CFTimeInterval)
+  final public func computeState(compStr: Swift.String) -> Metal.MTLComputePipelineState!
+  final public func dstTexture(buffer: CoreVideo.CVPixelBuffer!) -> Metal.MTLTexture?
+}
+extension Swift.SIMD2 where Scalar == Swift.Float {
+  public func convertCoord() -> simd.float2
+}
