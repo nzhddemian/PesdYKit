@@ -92,5 +92,6 @@ extension AVFoundation.AVAsset {
 }
 public class CVProccessor {
   public init()
+  public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize) -> [simd.float2]
   @objc deinit
 }
