@@ -3228,6 +3228,41 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "CVProccessor",
+        "printedName": "CVProccessor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CVProccessor",
+                "printedName": "PesdYKit.CVProccessor",
+                "usr": "s:8PesdYKit12CVProccessorC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PesdYKit12CVProccessorCACycfc",
+            "mangledName": "$s8PesdYKit12CVProccessorCACycfc",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8PesdYKit12CVProccessorC",
+        "mangledName": "$s8PesdYKit12CVProccessorC",
+        "moduleName": "PesdYKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "SIMD2",
         "printedName": "SIMD2",
         "children": [

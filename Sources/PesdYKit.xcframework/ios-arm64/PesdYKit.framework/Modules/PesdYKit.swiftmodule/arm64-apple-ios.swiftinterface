@@ -90,3 +90,7 @@ public class VAssetReader : PesdYKit.VAssetRaderDelegate {
 extension AVFoundation.AVAsset {
   public func videoSize() -> CoreFoundation.CGSize
 }
+public class CVProccessor {
+  public init()
+  @objc deinit
+}
