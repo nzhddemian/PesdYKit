@@ -9,11 +9,11 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
+#include <simd/simd.h>
 @interface CVDetectionBridge : NSObject
     
 - (UIImage *) track_Mat: (UIImage *) image;
 //- (CGImage *) detectPupils: (UIImage *) image;
-- (NSArray<NSArray<NSValue *> *> *)track_Points:(UIImage *)image;
+- (NSArray *)track_Points:(UIImage *)image;
     
 @end
