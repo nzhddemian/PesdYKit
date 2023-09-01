@@ -14,13 +14,12 @@ import UniformTypeIdentifiers
 import _Concurrency
 import _StringProcessing
 import simd
-public class MetalDevice {
+@_hasMissingDesignatedInitializers public class MetalDevice {
   public static let shared: PesdYKit.MetalDevice
   final public let device: Metal.MTLDevice
   final public let commandQueue: Metal.MTLCommandQueue
   public var videoTextureCache: CoreVideo.CVMetalTextureCache?
   @objc deinit
-  public init()
   final public func newCommandBuffer() -> Metal.MTLCommandBuffer
   final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> Metal.MTLRenderPipelineState
   final public class func texture(_ size: CoreFoundation.CGSize) -> Metal.MTLTexture?
@@ -41,6 +40,13 @@ public class MetalDevice {
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
+}
+public class CVProccessor {
+  public init()
+  public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
+  public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
+  public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?
+  @objc deinit
 }
 public protocol PixelBufferDelegate : AnyObject {
   func updatePixelBuffer(pixels: CoreVideo.CVPixelBuffer, times: CoreMedia.CMTime)
@@ -89,14 +95,4 @@ public class VAssetReader : PesdYKit.VAssetRaderDelegate {
 }
 extension AVFoundation.AVAsset {
   public func videoSize() -> CoreFoundation.CGSize
-}
-@_hasMissingDesignatedInitializers public class CVProccessor {
-  public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
-  public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
-  public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?
-  @objc deinit
-}
-extension Swift.Float {
-  public static func dist(_ a: simd.float2, _ b: simd.float2) -> Swift.Float
-  public static func dist(_ a: Swift.Float, _ b: Swift.Float) -> Swift.Float
 }
