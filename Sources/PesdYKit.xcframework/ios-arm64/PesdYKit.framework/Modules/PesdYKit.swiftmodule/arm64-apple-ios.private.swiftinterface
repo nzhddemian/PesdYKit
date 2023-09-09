@@ -31,7 +31,7 @@ import simd
   final public func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> Metal.MTLRenderPipelineState
   final public class func faceIndexBuffer(faceFloats: [simd.float2]) -> Metal.MTLBuffer?
   final public func cVTexture(buffer: CoreVideo.CVPixelBuffer!) -> Metal.MTLTexture?
-  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize, commandBuff: Metal.MTLCommandBuffer) -> Metal.MTLTexture?
+  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize) -> Metal.MTLTexture?
   final public func ciTextures(_ imgs: [CoreImage.CIImage], size: CoreFoundation.CGSize, commandBuff: Metal.MTLCommandBuffer) -> Metal.MTLTexture?
   final public class func scnTexture(_ size: CoreFoundation.CGSize) -> Metal.MTLTexture
   final public class func sceneToTexture(in scnView: SceneKit.SCNView, _ commandBuffer: Metal.MTLCommandBuffer, texture: inout Metal.MTLTexture, time: CoreFoundation.CFTimeInterval)
