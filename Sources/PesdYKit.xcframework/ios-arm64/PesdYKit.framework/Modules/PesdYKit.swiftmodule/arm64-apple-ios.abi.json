@@ -3650,30 +3650,625 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 2787,
+      "offset": 825,
+      "length": 30,
+      "value": "\"Memory to be released Device\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 11,
+      "value": "\"DEVICE!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2308,
+      "length": 12,
+      "value": "\"LIBRARY!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2360,
+      "length": 15,
+      "value": "\"NO LIBRARY!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3533,
+      "length": 14,
+      "value": "\"!!texture!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4126,
+      "length": 14,
+      "value": "\"!!texture!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4702,
+      "length": 14,
+      "value": "\"!!texture!!!\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4949,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4958,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4985,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 4993,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5043,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5051,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5078,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5086,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5136,
+      "length": 4,
+      "value": "-1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5145,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5171,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5179,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5229,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5237,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5263,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 5271,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "Array",
-      "offset": 6039,
+      "offset": 5428,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 5580,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5602,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5824,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 5989,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 6045,
       "length": 34,
       "value": "[0, 1, 2, 2, 3, 0]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6154,
+      "offset": 6160,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6796,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6808,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6829,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6846,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6867,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6906,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6965,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6982,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7107,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 7775,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7797,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 7972,
+      "length": 39,
+      "value": "[9, 0, 1, 1, 9, 8, 8, 2, 3, 3, 8, 7, 3, 4, 4, 7, 6, 4, 5]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "Array",
+      "offset": 8267,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9324,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9953,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10030,
+      "length": 4,
+      "value": "1080"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11456,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11494,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11754,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11930,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11936,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12693,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12831,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12865,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12868,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12871,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 12874,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13156,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14898,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 15306,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
+      "kind": "FloatLiteral",
+      "offset": 15337,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 15407,
+      "offset": 15413,
       "length": 11358,
       "value": "\"\n\/\/\n\/\/  Main.metal\n\/\/  SparclesDemoApp\n\/\/\n\/\/  Created by Demian Nezhdanov on 20\/07\/2023.\n\/\/\n\n#include <metal_stdlib>\n\/\/#import \"Common.h\"\nusing namespace metal;\n\n\nconstexpr metal::sampler sam(metal::filter::linear);\n\nstruct MetalUniforms{\n    \n    float u_time = float(0);\n    float2 res = float2(1080,1920);\n    float transform = 0.0;\n    float blur = 0.0;\n    float treshold = 0.0;\n    float sparkle_size = 0.0;\n    float glow = 0.0;\n};\n\n\n\nstruct VertexIn {\n    float2 position [[attribute(0)]];\n    float2 textureCoorinates [[attribute(1)]];\n};\n\nstruct VertexOut {\n    float4 position [[position]];\n    float2 textureCoorinates;\n};\n\n\n\nvertex VertexOut vertex_shader(constant VertexIn* vertexArray [[buffer(0)]], unsigned int vid [[vertex_id]]) {\n     \n     VertexIn vertexData = vertexArray[vid];\n     VertexOut vertexDataOut;\n     vertexDataOut.position = float4(vertexData.position.x, vertexData.position.y, 0.0, 1.0);\n     vertexDataOut.textureCoorinates = vertexData.textureCoorinates.xy;\n     return vertexDataOut;\n}\nfloat3 palet(float v ) {\n    return (float3(0.26) + tan(1.09)*sin(1.09)*0.26 * cos(3.18318 * (v + float3(0.0,0.333,0.567)))).brg;\n}\n\n\n\n\nfloat3 rgb2hsv(float3 c)\n{\n    float4 k = float4(0.0, -1.0 \/ 3.0, 2.0 \/ 3.0, -1.0);\n    float4 p = mix(float4(c.bg, k.wz), float4(c.gb, k.xy), step(c.b, c.g));\n    float4 q = mix(float4(p.xyw, c.r), float4(c.r, p.yzx), step(p.x, c.r));\n\n    float d = q.x - min(q.w, q.y);\n    float e = 1.0e-10;\n    return float3(abs(q.z + (q.w - q.y) \/ (6.0 * d + e)), d \/ (q.x + e), q.x);\n}\n\nfloat3 hsv2rgb(float3 c)\n{\n    float4 k = float4(1.0, 2.0 \/ 3.0, 1.0 \/ 3.0, 3.0);\n    float3 p = abs(fract(c.xxx + k.xyz) * 6.0 - k.www);\n    return c.z * mix(k.xxx, clamp(p - k.xxx, 0.0, 1.0), c.y);\n}\n\nfloat saturateF(float x)\n{\n    return clamp(x, 0.,1.);\n}\n\nfloat2 hash21(float p) \/\/1 in 2 out hash function\n{\n    float3 p3 = fract(float3(p) * float3(.1031, .1030, .0973));\n    p3 += dot(p3, p3.yzx + 19.19);\n    return fract((p3.xx+p3.yz)*p3.zy) * 2. - 1.;\n\n}\n\nfloat2 rotateUV(float2 uv, float rotation)\n{\n    return float2(\n        cos(rotation) * uv.x + sin(rotation) * uv.y,\n        cos(rotation) * uv.y - sin(rotation) * uv.x\n    );\n}\nfloat dist(float3 a, float3 b) { return abs(a.x - b.x) + abs(a.y - b.y) + abs(a.z - b.z); }\n\n\nfloat3 saturat(float3 x)\n{\n    return clamp(x, float3(0.0), float3(1.0));\n}\n\nfloat3 drawflare(float2 p, float intensity, float rnd, float speed, int id, float2 res , float blur, float glow)\n{\n    p.y \/= res.x\/res.y;\n    float flarehueoffset = (1. \/ 32.) * float(id) * 0.1;\n    float lingrad = distance(float2(0.), p); \/\/linear radial gradient\n    float expgrad = 1. \/ exp(lingrad * (fract(rnd) * 0.66 + 0.33)); \/\/exponential radial gradient\n    float3 colgrad = hsv2rgb(float3( fract( (expgrad * 8.) + (speed) + flarehueoffset), pow(1.-abs(expgrad*2.-1.), 0.45), 20.0 * expgrad * intensity)); \/\/rainbow spectrum effect\n    \n    \n    float blades = length(p * sin(2.0 * atan2(p.y, p.x))); \/\/draw 6 blades\n    \n    float comp = pow(1. - saturateF( blades ), 13. - (blur*12.)); \/\/ sharpen effect\n    comp += saturateF((expgrad-0.9)) * 3.;\n    comp = pow(comp * expgrad, 8 + (1.-intensity) * 5.); \/\/ compose and sharpen effect\n    float3 col = float3(comp) * colgrad\/1.5;\n    float d = length(p);\n    d = smoothstep(intensity\/1. * 2.,intensity\/10. * 2. , d)\/2. * glow;\n\/\/    col \/= 1.5;\n    col += d;\n    return  col ; \/\/ apply color\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfloat mod(float x, float y) {\n    return x - y * floor(x \/ y);\n}\nfloat2 mod(float2 x, float y){\n    return x - y * floor(x\/y);\n}\nfloat3 mod(float3 x, float3 y){\n    return x - y * floor(x\/y);\n}\n\n\n\nfloat Hash31( float3 p) {\n     return fract(937.276 * cos(836.826 * p.x + 263.736 * p.y + 374.723 * p.z + 637.839));\n}\n\n\nfloat3 hsl2rgb( float3 c ){\n    float3 rgb = clamp( abs(mod(c.x*6.0+float3(0.0,4.0,2.0),6.0)-3.0)-1.0, 0.0,1.0);\n    return c.z + c.y * (rgb-0.5)*(1.0-abs(2.0*c.z-1.0));\n}\n\nfloat sparcle(float2 pos, float2 uv, float time, float seed, float2 res){\n\n  float2 p = uv;\n float3 color = float3(0.0);\n  \n\n            p -=  pos;\n            p.y \/= res.x\/res.y;\n            p *= 14.;\n    float2 pp = p\/2;\n            float an = mod(atan2(p.y, p.x) + 6.2831 \/ 3.0, 6.2831 \/ 4.0) - 6.2831 \/ 3.0;\n            p = float2(cos(an), sin(an)) * length(p);\n            float sec = floor(1.0);\n            float frac = fract(1.0);\n\n            float rad = 125.0;\n    \n            float br = 250.0 * pow(10.0 \/ max(4.0, rad * (sqrt(abs(p.x*3)) + sqrt(abs(p.y*3))) + 0.9999), 2.);\n    \n\n            return pow(br,3.);\n}\n\n\/\/void mainImage(out float4 fragColor, in float2 fragCoord) {\n\/\/    float2 uv = (fragCoord - 0.5 * iResolution.xy) \/ iResolution.y * 4.0;\n\/\/    float time = iTime * 2.0;\n\/\/    float3 color = float3(0.0);\n\/\/\n\/\/\n\/\/         color = sparcle(float2(0.5), uv, time, 2);\n\/\/\n\/\/ color += sparcle(float2(0.2), uv, time, 12);\n\/\/\n\/\/    fragColor = float4(color, 1.0);\n\/\/}\n\nfloat3 blur(texture2d<float> tex, float2 uv, float r){\n    \n     float3 blur = float3(0.0);\n     float2 res = float2(tex.get_width(),tex.get_height());\n         float sum = 0.0;\n        \/\/float r = rad;\n         for(float u = -r; u<=r; u+=1.){\n             for(float v = -r; v<=r; v+=1.){\n \n                 float weight = r*10. - sqrt(u * u + v * v);\n                \/\/ uv + (float2(u, v)\/res)\n                 blur += weight * tex.sample(sam,uv + (float2(u, v)\/res)).rgb;\n                 sum += weight;\n             }\n         }\n         blur \/= sum;\n     \n    return blur;\n}\n\nfloat2 computeUV( float2 uv, float k, float kcube ){\n    \n    float2 t = uv - .5;\n    float r2 = t.x * t.x + t.y * t.y;\n    float f = 0.;\n    \n\/\/    if( kcube == 0.0){\n        f = 1.5 + r2 * k;\n\/\/    }else{\n\/\/        f = 1. + r2 * ( k + kcube * sqrt( r2 ) );\n\/\/    }\n    \n    float2 nUv = uv ;\n    \/\/nUv.y = 1. - nUv.y;\n \n    return nUv;\n    \n}\n\n\nfloat3 srgbToLinear(const float3 x){\n    return 0.315206*x*((2.10545+x)*(0.0231872+x));\n}\nfloat3 t(texture2d<float> tex,float2 p,float m){\n    return srgbToLinear(tex.sample(sam,  p, m).rgb);\n}\n\nfloat3 fastBloom(float2 p,float2 r,texture2d<float> tex){\n    float mip = 2.;\n    float scale = exp2(mip);\n    float3 c =\n        t(tex,(p+float2(-1.5,-0.5)*scale)\/r,mip)*.1+\n        t(tex,(p+float2( 0.5,-1.5)*scale)\/r,mip)*.1+\n        t(tex,(p+float2( 1.5, 0.5)*scale)\/r,mip)*.1+\n        t(tex,(p+float2(-0.5, 1.5)*scale)\/r,mip)*.1+\n        t(tex,(p)\/r,mip)*.7+\n        t(tex,p\/r,0.)*.7;\n    return c;\n}\nfloat3 highlight(float3 color, float intensity)\n{\n    const float a = 1.357697966704323E-01;\n    const float b = 1.006045552016985E+00;\n    const float c = 4.674339906510876E-01;\n    const float d = 8.029414702292208E-01;\n    const float e = 1.127806558508491E-01;\n    \n    float maxx = max(color.r, max(color.g, color.b));\n    float minx = min(color.r, min(color.g, color.b));\n    float lum = 0.5 * (maxx + minx);\n    float x1 = abs(intensity);\n    float x2 = lum;\n    float lum_new =  lum < 0.5 ? lum : lum + a * sign(intensity) * exp(-0.5 * (((x1-b)\/c)*((x1-b)\/c) + ((x2-d)\/e)*((x2-d)\/e)));\n    return color * lum_new \/ lum;\n}\n\n\nfragment float4 first_fragment(VertexOut fragmentIn [[stage_in]],\n                      texture2d<float, access::sample> tex [[texture(0)]],\n            \n                              constant MetalUniforms &values [[buffer(12)]]) {\n     \n     constexpr sampler sam(mag_filter::linear, min_filter::linear);\n     \n     float2 res = float2(tex.get_width(),tex.get_height());\n     float2 uv = fragmentIn.textureCoorinates;\n\/\/    uv.y = 1.0 - uv.y;\n    float3 color = tex.sample(sam, uv).rgb;\n\/\/    float3 color = blur(tex, uv, 1);\n    float a = (color.r + color.g + color.b)\/3;\n    \n    if(a > 0.8){\n        a = 1.0;\n    }else{\n        a = .0;\n    }\n    float3 c  = mix(color.rgb, float4(highlight(color, 0.8), 1.0f).rgb * 2.0  , values.treshold\/4 );\n\/\/    color = float3(1.0,0.0,0.0 , 1.0);\n     return float4(c,1.0);\n   \n    \n\/\/    color = float3(1.0,0.0,0.0 , 1.0);\n\/\/     return float4(color*a,1.0);\n   \n}\n\nfloat point(float2 pos, float2 uv, float2 res){\n    uv -= pos;\n    uv.y \/= res.x\/res.y;\n  \n    float d = length(uv);\n    d = smoothstep(0.25, 0.0, d)\/34.;\n    return d;\n}\n\nfragment float4 sparkle_fragment(VertexOut fragmentIn [[stage_in]],\n                                 texture2d<float, access::sample> tex [[texture(0)]],\n                              constant float3 *fcBuffer [[buffer(8)]],\n                              constant int &count [[buffer(7)]],\n\/\/                              constant float2 &foo[2] [[buffer(8)]],\n                              constant MetalUniforms &values [[buffer(12)]]) {\n     \n     constexpr sampler sam(mag_filter::linear, min_filter::linear);\n     \n    \n     float2 uv = fragmentIn.textureCoorinates;\n    float3 d = float3(0.0);\n\n    for(int i = 0; i < count; i+=1 ){\n        float spsz = fcBuffer[i].z;\n        spsz = smoothstep(0.0, 1.0, spsz) + values.sparkle_size;\n        float sizeOp =  (spsz * 1.5 );\n        float size =  (spsz * (1. ) );\n        if(fcBuffer[i].x != float(0.0)){\n            d += drawflare((uv - float2(fcBuffer[i].xy))*8, size + 0.1, 0.01, values.u_time\/2., i, values.res, values.blur,values.glow)\/( float(int(sizeOp * 10.))\/10. + 1. );\n        }\n\/\/        d += point(fcBuffer[i].xy, uv, values.res);\n    }\n\/\/    float3 video = tex.sample(sam, uv).rgb;\n\/\/    float3 color = video + d;\n    \n     return float4(d, 1.0);\n   \n}\n\nfragment float4 main_fragment(VertexOut fragmentIn [[stage_in]],\n                      texture2d<float, access::sample> video [[texture(0)]],\n                      texture2d<float, access::sample> sprkls [[texture(1)]],\n                      \n                              constant MetalUniforms &values [[buffer(12)]]) {\n     \n     constexpr sampler sam(mag_filter::linear, min_filter::linear);\n     \n     float2 res = float2(video.get_width(),video.get_height());\n     float2 uv = fragmentIn.textureCoorinates;\n    float3 d = float3(0.0);\n    float3 sprklCol = blur(sprkls, uv, 1);\n\/\/    sprklCol += blur(sprkls, uv, 2. + 1);\n\/\/    float3 sprklCol = sprkls.sample(sam,  uv).rgb;\n\/\/    float3 b = blur(video, uv, 8.);\n\/\/    b.b += 0.1;\n    float3 videoC = video.sample(sam,  uv).rgb;\/\/fastBloom(uv.xy*res,res.xy,tex) + blur(tex, uv, 2.);\n    float3 color = videoC;\n    color.gb \/= 1.1;\n    \n    color += sprklCol;\n     return float4(color, 1.0);\n   \n}\n\n\n\n\nfragment float4 halation_fragment(VertexOut fragmentIn [[stage_in]],\n                      texture2d<float, access::sample> video [[texture(0)]],\n                      texture2d<float, access::sample> halation [[texture(1)]],\n                      \n                              constant MetalUniforms &values [[buffer(12)]]) {\n     \n     constexpr sampler sam(mag_filter::linear, min_filter::linear);\n     \n     float2 res = float2(video.get_width(),video.get_height());\n     float2 uv = fragmentIn.textureCoorinates;\n    float3 d = float3(0.0);\n    float2 hUV = float2(uv.x, 1.0 - uv.y);\n    float3 sprklCol = halation.sample(sam,  hUV).r * float3(1.0,0.,0.7);\n\/\/    sprklCol += blur(sprkls, uv, 2. + 1);\n\/\/    float3 sprklCol = sprkls.sample(sam,  uv).rgb;\n\/\/    float3 b = blur(video, uv, 8.);\n\/\/    b.b += 0.1;\n    float3 videoC = video.sample(sam,  uv).rgb;\/\/fastBloom(uv.xy*res,res.xy,tex) + blur(tex, uv, 2.);\n    float3 color = videoC;\n    color.gb \/= 1.1;\n    \n    color += sprklCol;\n     return float4(color, 1.0);\n   \n}\n\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 979,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1005,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1106,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1110,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1114,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1484,
+      "length": 4,
+      "value": "2000"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1531,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1646,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1993,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 2182,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "FloatLiteral",
+      "offset": 2265,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 50,
+      "value": "\":::::START::::::::::::::::::::::::::::::::::::::\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2513,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2776,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 2805,
+      "length": 28,
+      "value": "\":::::  \""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 2832,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "StringLiteral",
+      "offset": 2871,
+      "length": 48,
+      "value": "\":::::END::::::::::::::::::::::::::::::::::::::\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3901,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3922,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/OpenCV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4077,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
@@ -3723,6 +4318,118 @@
       "offset": 849,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2235,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2278,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2732,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2779,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2829,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2882,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2960,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "StringLiteral",
+      "offset": 3127,
+      "length": 29,
+      "value": "\"NO transform data for video\""
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "FloatLiteral",
+      "offset": 3570,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "FloatLiteral",
+      "offset": 3576,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4741,
+      "length": 4,
+      "value": "6000"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5496,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/VAssetReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5507,
+      "length": 1,
+      "value": "0"
     }
   ]
 }

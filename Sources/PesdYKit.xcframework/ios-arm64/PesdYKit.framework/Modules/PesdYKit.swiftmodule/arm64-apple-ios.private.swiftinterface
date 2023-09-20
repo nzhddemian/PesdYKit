@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PesdYKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -16,27 +16,27 @@ import _StringProcessing
 import simd
 @_hasMissingDesignatedInitializers public class MetalDevice {
   public static let shared: PesdYKit.MetalDevice
-  final public let device: Metal.MTLDevice
-  final public let commandQueue: Metal.MTLCommandQueue
+  final public let device: any Metal.MTLDevice
+  final public let commandQueue: any Metal.MTLCommandQueue
   public var videoTextureCache: CoreVideo.CVMetalTextureCache?
   @objc deinit
-  final public func newCommandBuffer() -> Metal.MTLCommandBuffer
-  final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> Metal.MTLRenderPipelineState
-  final public class func texture(_ size: CoreFoundation.CGSize) -> Metal.MTLTexture?
-  final public class func textureA(_ width: Swift.Int, _ height: Swift.Int) -> Metal.MTLTexture?
-  final public class func filerTexture(_ width: Swift.Int, _ height: Swift.Int) -> Metal.MTLTexture?
-  final public class func vertexBuffer() -> Metal.MTLBuffer?
-  final public class func faceBuffer(faceFloats: [simd.float2]) -> Metal.MTLBuffer?
+  final public func newCommandBuffer() -> any Metal.MTLCommandBuffer
+  final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> any Metal.MTLRenderPipelineState
+  final public class func texture(_ size: CoreFoundation.CGSize) -> (any Metal.MTLTexture)?
+  final public class func textureA(_ width: Swift.Int, _ height: Swift.Int) -> (any Metal.MTLTexture)?
+  final public class func filerTexture(_ width: Swift.Int, _ height: Swift.Int) -> (any Metal.MTLTexture)?
+  final public class func vertexBuffer() -> (any Metal.MTLBuffer)?
+  final public class func faceBuffer(faceFloats: [simd.float2]) -> (any Metal.MTLBuffer)?
   final public let index_data: [Swift.UInt16]
-  final public func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> Metal.MTLRenderPipelineState
-  final public class func faceIndexBuffer(faceFloats: [simd.float2]) -> Metal.MTLBuffer?
-  final public func cVTexture(buffer: CoreVideo.CVPixelBuffer!) -> Metal.MTLTexture?
-  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize) -> Metal.MTLTexture?
-  final public func ciTextures(_ imgs: [CoreImage.CIImage], size: CoreFoundation.CGSize, commandBuff: Metal.MTLCommandBuffer) -> Metal.MTLTexture?
-  final public class func scnTexture(_ size: CoreFoundation.CGSize) -> Metal.MTLTexture
-  final public class func sceneToTexture(in scnView: SceneKit.SCNView, _ commandBuffer: Metal.MTLCommandBuffer, texture: inout Metal.MTLTexture, time: CoreFoundation.CFTimeInterval)
-  final public func computeState(compStr: Swift.String) -> Metal.MTLComputePipelineState!
-  final public func dstTexture(buffer: CoreVideo.CVPixelBuffer!) -> Metal.MTLTexture?
+  final public func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> any Metal.MTLRenderPipelineState
+  final public class func faceIndexBuffer(faceFloats: [simd.float2]) -> (any Metal.MTLBuffer)?
+  final public func cVTexture(buffer: CoreVideo.CVPixelBuffer!) -> (any Metal.MTLTexture)?
+  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize) -> (any Metal.MTLTexture)?
+  final public func ciTextures(_ imgs: [CoreImage.CIImage], size: CoreFoundation.CGSize, commandBuff: any Metal.MTLCommandBuffer) -> (any Metal.MTLTexture)?
+  final public class func scnTexture(_ size: CoreFoundation.CGSize) -> any Metal.MTLTexture
+  final public class func sceneToTexture(in scnView: SceneKit.SCNView, _ commandBuffer: any Metal.MTLCommandBuffer, texture: inout any Metal.MTLTexture, time: CoreFoundation.CFTimeInterval)
+  final public func computeState(compStr: Swift.String) -> (any Metal.MTLComputePipelineState)!
+  final public func dstTexture(buffer: CoreVideo.CVPixelBuffer!) -> (any Metal.MTLTexture)?
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
@@ -76,7 +76,7 @@ public protocol VAssetRaderDelegate {
   func setTimeRange(_ timeRange: CoreMedia.CMTimeRange)
 }
 public class VAssetReader : PesdYKit.VAssetRaderDelegate {
-  weak public var delegate: PesdYKit.PixelBufferDelegate?
+  weak public var delegate: (any PesdYKit.PixelBufferDelegate)?
   public var asset: AVFoundation.AVAsset!
   public var player: AVFoundation.AVPlayer?
   public var playerItem: AVFoundation.AVPlayerItem!
