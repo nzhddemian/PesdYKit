@@ -2,18 +2,12 @@
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PesdYKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
-import AVFoundation
-import CoreImage.CIFilterBuiltins
-import CoreImage
 import MetalKit
 @_exported import PesdYKit
 import SceneKit
 import Swift
-import UIKit
-import UniformTypeIdentifiers
 import _Concurrency
 import _StringProcessing
-import simd
 @_hasMissingDesignatedInitializers public class MetalDevice {
   public static let shared: PesdYKit.MetalDevice
   final public let device: any Metal.MTLDevice
@@ -40,59 +34,4 @@ import simd
 }
 extension Swift.SIMD2 where Scalar == Swift.Float {
   public func convertCoord() -> simd.float2
-}
-public class CVProccessor {
-  public init()
-  public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
-  public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
-  public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?
-  @objc deinit
-}
-public protocol PixelBufferDelegate : AnyObject {
-  func updatePixelBuffer(pixels: CoreVideo.CVPixelBuffer, times: CoreMedia.CMTime)
-}
-public struct AssetTime {
-  public init()
-  public var finalClipRange: CoreMedia.CMTimeRange
-  public var clipDuration: CoreMedia.CMTime
-  public var currentTime: CoreMedia.CMTime
-}
-public class VAssetModel {
-  public init()
-  public static var land: Swift.Bool
-  public static var rotation: Swift.Float
-  public static var rotationGif: Swift.Float
-  public static var aspectRatio: CoreFoundation.CGFloat
-  public static var drawableSize: CoreFoundation.CGSize
-  public static var duration: CoreMedia.CMTime!
-  public static var landscape: Swift.Bool
-  @objc deinit
-}
-public protocol VAssetRaderDelegate {
-  func seekTo(time: CoreMedia.CMTime)
-  func readBuffer() -> CoreVideo.CVPixelBuffer?
-  func playAsset()
-  func pauseAsset()
-  func setTimeRange(_ timeRange: CoreMedia.CMTimeRange)
-}
-public class VAssetReader : PesdYKit.VAssetRaderDelegate {
-  weak public var delegate: (any PesdYKit.PixelBufferDelegate)?
-  public var asset: AVFoundation.AVAsset!
-  public var player: AVFoundation.AVPlayer?
-  public var playerItem: AVFoundation.AVPlayerItem!
-  public var assetTime: PesdYKit.AssetTime
-  public var pixelBuffer: CoreVideo.CVPixelBuffer?
-  public init(_ url: Foundation.URL)
-  public func turnOnSound(_ isOn: Swift.Bool)
-  public func seekTuStart()
-  public func seekTo(time: CoreMedia.CMTime)
-  public func loop()
-  public func playAsset()
-  public func pauseAsset()
-  public func setTimeRange(_ timeRange: CoreMedia.CMTimeRange)
-  public func readBuffer() -> CoreVideo.CVPixelBuffer?
-  @objc deinit
-}
-extension AVFoundation.AVAsset {
-  public func videoSize() -> CoreFoundation.CGSize
 }
