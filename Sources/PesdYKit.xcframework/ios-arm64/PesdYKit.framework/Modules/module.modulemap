@@ -1,7 +1,7 @@
 framework module PesdYKit {
   umbrella header "PesdYKit.h"
-
   export *
+
   module * { export * }
 }
 
