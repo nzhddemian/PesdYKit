@@ -23,7 +23,7 @@ import simd
   @objc deinit
   final public func newCommandBuffer() -> any Metal.MTLCommandBuffer
   final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> any Metal.MTLRenderPipelineState
-  final public class func texture(_ size: CoreFoundation.CGSize) -> (any Metal.MTLTexture)?
+  final public class func texture(_ size: CoreFoundation.CGSize, pixelFormat: Metal.MTLPixelFormat = .bgra8Unorm) -> (any Metal.MTLTexture)?
   final public class func textureA(_ width: Swift.Int, _ height: Swift.Int) -> (any Metal.MTLTexture)?
   final public class func filerTexture(_ width: Swift.Int, _ height: Swift.Int) -> (any Metal.MTLTexture)?
   final public class func vertexBuffer() -> (any Metal.MTLBuffer)?
@@ -32,7 +32,7 @@ import simd
   final public func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> any Metal.MTLRenderPipelineState
   final public class func faceIndexBuffer(faceFloats: [simd.float2]) -> (any Metal.MTLBuffer)?
   final public func cVTexture(buffer: CoreVideo.CVPixelBuffer!) -> (any Metal.MTLTexture)?
-  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize) -> (any Metal.MTLTexture)?
+  final public func ciTexture(_ img: CoreImage.CIImage?, size: CoreFoundation.CGSize, pixelFormat: Metal.MTLPixelFormat = .bgra8Unorm) -> (any Metal.MTLTexture)?
   final public func ciTextures(_ imgs: [CoreImage.CIImage], size: CoreFoundation.CGSize, commandBuff: any Metal.MTLCommandBuffer) -> (any Metal.MTLTexture)?
   final public class func scnTexture(_ size: CoreFoundation.CGSize) -> any Metal.MTLTexture
   final public class func sceneToTexture(in scnView: SceneKit.SCNView, _ commandBuffer: any Metal.MTLCommandBuffer, texture: inout any Metal.MTLTexture, time: CoreFoundation.CFTimeInterval)
