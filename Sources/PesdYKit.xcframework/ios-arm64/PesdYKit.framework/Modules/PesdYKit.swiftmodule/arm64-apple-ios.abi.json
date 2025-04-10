@@ -307,6 +307,53 @@
           },
           {
             "kind": "Function",
+            "name": "resizeTextureWithComputeKernel",
+            "printedName": "resizeTextureWithComputeKernel(sourceTexture:targetWidth:targetHeight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Metal.MTLTexture)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MTLTexture",
+                    "printedName": "any Metal.MTLTexture",
+                    "usr": "c:objc(pl)MTLTexture"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MTLTexture",
+                "printedName": "any Metal.MTLTexture",
+                "usr": "c:objc(pl)MTLTexture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PesdYKit11MetalDeviceC30resizeTextureWithComputeKernel06sourceF011targetWidth0K6HeightSo10MTLTexture_pSgSoAH_p_S2itF",
+            "mangledName": "$s8PesdYKit11MetalDeviceC30resizeTextureWithComputeKernel06sourceF011targetWidth0K6HeightSo10MTLTexture_pSgSoAH_p_S2itF",
+            "moduleName": "PesdYKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "computeGrayscale",
             "printedName": "computeGrayscale(from:)",
             "children": [
@@ -4157,21 +4204,21 @@
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 6074,
+      "offset": 6081,
       "length": 14,
       "value": "\"vertexShader\""
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "Array",
-      "offset": 9543,
+      "offset": 9550,
       "length": 34,
       "value": "[0, 1, 2, 2, 3, 0]"
     },
     {
       "filePath": "\/Users\/demiannezhdanov\/Projects\/myFRAMEWORKS\/FRamework\/PesdYKit\/PesdYKit\/OpenCV\/MetalDevice.swift",
       "kind": "StringLiteral",
-      "offset": 9658,
+      "offset": 9665,
       "length": 14,
       "value": "\"vertexShader\""
     },

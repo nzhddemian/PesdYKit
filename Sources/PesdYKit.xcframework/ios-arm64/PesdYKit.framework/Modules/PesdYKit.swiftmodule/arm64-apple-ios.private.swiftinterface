@@ -22,6 +22,7 @@ import simd
   public var videoTextureCache: CoreVideo.CVMetalTextureCache?
   @objc deinit
   final public func newCommandBuffer() -> any Metal.MTLCommandBuffer
+  public func resizeTextureWithComputeKernel(sourceTexture: any Metal.MTLTexture, targetWidth: Swift.Int, targetHeight: Swift.Int) -> (any Metal.MTLTexture)?
   public func computeGrayscale(from inputTexture: any Metal.MTLTexture) -> (any Metal.MTLBuffer)?
   final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> any Metal.MTLRenderPipelineState
   final public class func texture(_ size: CoreFoundation.CGSize, pixelFormat: Metal.MTLPixelFormat = .bgra8Unorm) -> (any Metal.MTLTexture)?
