@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PesdYKit
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PesdYKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import CoreImage.CIFilterBuiltins
 import CoreImage
@@ -22,6 +22,7 @@ import simd
   public var videoTextureCache: CoreVideo.CVMetalTextureCache?
   @objc deinit
   final public func newCommandBuffer() -> any Metal.MTLCommandBuffer
+  public func computeGrayscale(from inputTexture: any Metal.MTLTexture) -> (any Metal.MTLBuffer)?
   final public class func renderPipe(vertexFunctionName: Swift.String = "vertexShader", fragmentFunctionName: Swift.String, pixelFormat: Metal.MTLPixelFormat) throws -> any Metal.MTLRenderPipelineState
   final public class func texture(_ size: CoreFoundation.CGSize, pixelFormat: Metal.MTLPixelFormat = .bgra8Unorm) -> (any Metal.MTLTexture)?
   final public class func textureA(_ width: Swift.Int, _ height: Swift.Int) -> (any Metal.MTLTexture)?
@@ -47,6 +48,8 @@ public class CVProccessor {
   public static func tracker(inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
   public static func photoTracker(inTexture: any Metal.MTLTexture, inputImg: UIKit.UIImage, drwSize: CoreFoundation.CGSize, _ before: inout [simd.float3]) -> [simd.float3]
   public static func segments(inputImg: UIKit.UIImage) -> UIKit.UIImage
+  public static func grayBufferToUIImage(buffer: any Metal.MTLBuffer, width: Swift.Int, height: Swift.Int) -> UIKit.UIImage?
+  public static func halation(buffer: any Metal.MTLBuffer, width: Swift.Int, height: Swift.Int, _ threshold: Swift.Float) -> UIKit.UIImage?
   public static func processImg(uiimg: UIKit.UIImage) -> CoreImage.CIImage?
   @objc deinit
 }

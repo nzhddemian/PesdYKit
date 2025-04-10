@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/CVDetectionBridge.h</key>
 		<data>
-		adjXCse8eC72KC8YNPrgSFDM2oY=
+		TIQ4DDaITdGrC1uO598zwMer/r0=
 		</data>
 		<key>Headers/PesdYKit-Swift.h</key>
 		<data>
-		MjFcrQItdTNaJI2onlL4Qw1DUFA=
+		krt0o5rdR68n7TXUXx0IKcVA5aE=
 		</data>
 		<key>Headers/PesdYKit.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+21Jb0iZmmzQADnpYe+JquwKpWY=
+		HUULlpIPzleKh0j3SyBmdwDa2VA=
 		</data>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		SlyOVADURp0LulJF5TZml/3WSHQ=
+		V9MxiRKY9vPo1ZilQT6gwcINZNk=
 		</data>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		zZ9dss2RIdLTzbcR+JlnOHNKKHE=
+		YEBUXaI1oh4PjwvvIqpzyYtEiXc=
 		</data>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		M1RhhRVd+f3Rb0WQVbkwH8z5MNc=
+		HpZnYPxCJCYwJOAMFg7B/ODpffk=
 		</data>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		zZ9dss2RIdLTzbcR+JlnOHNKKHE=
+		YEBUXaI1oh4PjwvvIqpzyYtEiXc=
 		</data>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MQMrJPHg5U/QOZ5Hz0SFIYh/sSo=
+		GEXL46ISpn1T/z502RBsb3hTlqs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+H+AXydDZOr9LN5xRxnzACNdzbM8vD4+pZNQII4xcuI=
+			OFjJp9d3IIqNXKrq3Ft2IIinDRlvJ0SbOwTP3fdP+Ts=
 			</data>
 		</dict>
 		<key>Headers/PesdYKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7dHTCysHXy3ddv4VCJmzAPUu33xDYr/r2HZbpSUus1w=
+			8wsN2d8Q3oJU3mr+YiSqqprJk444SlKMUVH67DO5wBQ=
 			</data>
 		</dict>
 		<key>Headers/PesdYKit.h</key>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			seM96HpuDrsEoZOovw7AtpWcOTa5RlYUbNxGSXC6ZGE=
+			Say3jLQsxnStxHb2wIfPtU1JVcOJ+/P9IzYazXP1kwY=
 			</data>
 		</dict>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMJdoObf9JH72Y6KmomsQyCQHr85qMhGo2iV/8nCVso=
+			8Z9v/SaCJBwbCXBG3cjTjNO/I9EsRtkvEjjNA6el3eY=
 			</data>
 		</dict>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wbZSzeONVriksSLBl4BeH4VYi/1YtK59iTtsuy+W8VA=
+			ToCBhYvAwH44U22ONT6I+wdw5CqHIe7jH/Mq/oAv5bY=
 			</data>
 		</dict>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iMJdoObf9JH72Y6KmomsQyCQHr85qMhGo2iV/8nCVso=
+			8Z9v/SaCJBwbCXBG3cjTjNO/I9EsRtkvEjjNA6el3eY=
 			</data>
 		</dict>
 		<key>Modules/PesdYKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN73JODVSriQtdeUIGH7RJO/wLqOIFCMT4G4FQCOm6s=
+			VqgmQ94BmyyCTpnfoZ4SRySkN9z9oQ5aLaiWtfAX7is=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

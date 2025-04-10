@@ -15,6 +15,8 @@
 - (UIImage *) track_Mat: (UIImage *) image;
 - (UIImage *) track_halation: (UIImage *) image;
 //- (CGImage *) detectPupils: (UIImage *) image;
+
+- (UIImage *) halation:(UIImage *)image intensity:(float)intensity;
 - (NSArray *)track_Points:(UIImage *)image;
     
 @end
